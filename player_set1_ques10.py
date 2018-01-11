@@ -4,7 +4,7 @@ pat = r'^[a-zA-Z]+$'
 
 s1, s2 = input().split(' ')
 
-if bool(re.match(pat, s1)) and bool(re.match(pat, s1)):
+if bool(re.match(pat, s1)) and bool(re.match(pat, s2)):
     d = dict()
     count = 0
     flag = False
